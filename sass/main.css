@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Satoshi", sans-serif;
+  box-sizing: border-box;
+  background-color: #0a0b0a;
+  color: rgba(245, 242, 234, 0.7);
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 2.4rem;
+}
+
+@font-face {
+  font-family: "Satoshi", sans-serif;
+  src: url("/assets/fonts/satoshi-variable.ttf");
+}
+@font-face {
+  font-family: "Forum", serif;
+  src: url("/assets/fonts/forum-regular.ttf");
+}
+.heading-primary {
+  font-family: "Forum", serif;
+  font-size: 14rem;
+  line-height: 1;
+  letter-spacing: 3px;
+  color: #efefd2;
+  font-weight: 400;
+}
+
+.btn {
+  border: none;
+  text-decoration: none;
+}
+.btn:focus {
+  outline: none;
+}
+.btn-primary {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #efefd2;
+  padding: 1.2rem;
+  font-weight: 300;
+  background-color: #111111;
+  border: 1px solid #32312e;
+  border-radius: 8px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 0.8rem;
+  border-radius: 1.2rem;
+  background-color: #0a0b0a;
+  position: fixed;
+  top: 7.2rem;
+  left: 7.2rem;
+}
+.navigation .logo {
+  width: 12rem;
+}
+.navigation .logo img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.navigation .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.navigation .nav-links li {
+  list-style: none;
+}
+.navigation .nav-links li .nav-item {
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #efefd2;
+  padding: 1.2rem;
+  font-weight: 300;
+}/*# sourceMappingURL=main.css.map */
